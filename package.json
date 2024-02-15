@@ -1,0 +1,30 @@
+{
+  "name": "assignment_45_3076298_stojic_stevan",
+  "version": "1.0.0",
+  "description": "CRUD(Create, Read, Update, Delete) application using Node.js that manages a list of monsters. Focus on server-side JavaScript operations and Data Handling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "uglify": "uglifyjs index.js --output script.js"
+  },
+  "keywords": [
+    "Assignment",
+    "45"
+  ],
+  "author": "Stevan Stojic",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.1.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "uglify-js": "^3.17.4"
+  },
+  "type": "module"
+}
